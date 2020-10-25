@@ -1,0 +1,27 @@
+{
+  "name": "pokebot",
+  "version": "1.0.0",
+  "description": "bot de pokemon para discord",
+  "scripts": {
+    "start": "nodemon ./src/controllers/DiscordController.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianmendonca/pokebot.git"
+  },
+  "author": "Julian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianmendonca/pokebot/issues"
+  },
+  "homepage": "https://github.com/julianmendonca/pokebot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "canvas": "^2.6.1",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "pg": "^8.3.3",
+    "translatte": "^2.5.8"
+  }
+}

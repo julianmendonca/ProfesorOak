@@ -1,0 +1,1 @@
+worker: node ./src/controllers/DiscordController.js
